@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    imageregistry: "https://ghcr.io"
+  name: ${YML_MY_NAME}
+spec:
+  containers:
+    - name: ${YML_MY_NAME}
+      image: ghcr.io/mlibrary/gkostin-sandbox/${YML_MY_NAME}:latest
+      command: [ "sleep", "infinity" ]
+

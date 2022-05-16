@@ -1,0 +1,11 @@
+.bundle
+*.viminfo
+*.bash_history
+*.swp
+*.lock
+
+github/
+
+# Kubernetes
+/kube/**/*.yml
+
